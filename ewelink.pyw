@@ -59,11 +59,9 @@ def get_devices():
     devices = [] 
     for i in range(0, len(j)):
         device_id = j[i]['deviceid']
-        try:          
-            device_name = config['devices'][device_id] 
-        except KeyError:
-            device_name = device_id 
+        device_name = j[i]['name']
         device_state = j[i]['params']['switch']
+        
         devices.append([device_name, device_id, device_state]) 
     return devices 
 
