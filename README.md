@@ -5,6 +5,6 @@ Control Ewelink smart light switches from Windows' tray
 
 written in Python 3, requires win32gui
 
-needs API key and token to be sniffed from the Ewelink app
+needs API key and token to be sniffed from the Ewelink app  
 See: https://github.com/gbro115/homebridge-ewelink#obtaining-the-authentication-token-and-api-url-using-charles
 
