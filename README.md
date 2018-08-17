@@ -1,7 +1,7 @@
 # ewelink-tray
 Control Ewelink smart light switches from Windows' tray
 
-![](https://raw.githubusercontent.com/elig0n/ewelink-tray/master/imgs/2018-08-11_00-20-48.png)
+![](https://raw.githubusercontent.com/elig0n/ewelink-tray/master/imgs/ewelink_tray.png)
 
 written in Python 3, requires win32gui
 
